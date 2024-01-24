@@ -33,7 +33,7 @@ export default function App() {
               method: 'GET',
               headers: {
                 'Content-Type': 'application/json',
-                'Authorization': `Bearer ${accessToken}`
+                'Authorization': `Bearer ${data.access_token}`
               },
             }
         );
